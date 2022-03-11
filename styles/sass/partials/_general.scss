@@ -29,3 +29,39 @@ p{
     width: 90%;
     margin: 0 auto;
 }
+
+// font styles
+
+html {
+    font-size: 62.5%; // setting base font to 10px
+}
+
+//  font -family
+h1,
+.logo,
+button {
+
+    font-family: $playfair, sans-serif;
+    // font-style: italic; - no need to apply since base font is already italic
+
+}
+
+h2,
+h3,
+h4,
+h5,
+nav {
+    font-family: $lato, sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: $lato, sans-serif;
+    font-weight: 400;
+}
+
+
+form::placeholder {
+    font-family: $lato, sans-serif;
+    font-weight: 300;
+}

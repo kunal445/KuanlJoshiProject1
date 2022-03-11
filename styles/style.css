@@ -258,3 +258,52 @@ p {
   width: 90%;
   margin: 0 auto;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+h1,
+.logo,
+button {
+  font-family: "Playfair Display SC", sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+nav {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+form::-webkit-input-placeholder {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+form::-moz-placeholder {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+form:-ms-input-placeholder {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+form::-ms-input-placeholder {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+form::placeholder {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
