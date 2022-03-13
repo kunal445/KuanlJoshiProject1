@@ -63,6 +63,7 @@ form::placeholder {
     font-size: 2rem;
     line-height: 3.2rem;
     letter-spacing: 0.2rem;
+    color: $black1;
 }
 
 
@@ -74,6 +75,7 @@ form::placeholder {
 
 h1 {
     font-size: 11.12rem;
+    color: $blue1;
 }
 
 h2 {
@@ -86,23 +88,27 @@ h3 {
     font-size: 6.2rem;
     line-height: 5.8rem;
     letter-spacing: 0.67rem;
+    color: $green3;
 }
 
 h4 {
     font-size: 3.5rem;
     line-height: 5.8rem;
     letter-spacing: 0.38rem;
+    color: $green3;
 }
 
 h5 {
     font-size: 3rem;
     line-height: 5.8rem;
     letter-spacing: 0.32rem;
+    color: $green3;
 }
 
 .logo {
     font-size: 3.46rem;
     text-align: center;
+    color: $green1;
 }
 
 button,
@@ -111,8 +117,18 @@ nav {
     text-align: center;
     letter-spacing: 0.1rem;
     line-height: 3.2rem;
+    color: $white1;
 }
 
 nav {
     line-height: 2.9rem;
+
+    a{
+        color: $white1;
+    }
+}
+
+// colors
+button {
+        background-color: $blue1;
 }

@@ -285,6 +285,7 @@ form::-webkit-input-placeholder {
   font-size: 2rem;
   line-height: 3.2rem;
   letter-spacing: 0.2rem;
+  color: #2C2C2C;
 }
 
 form::-moz-placeholder {
@@ -293,6 +294,7 @@ form::-moz-placeholder {
   font-size: 2rem;
   line-height: 3.2rem;
   letter-spacing: 0.2rem;
+  color: #2C2C2C;
 }
 
 form:-ms-input-placeholder {
@@ -301,6 +303,7 @@ form:-ms-input-placeholder {
   font-size: 2rem;
   line-height: 3.2rem;
   letter-spacing: 0.2rem;
+  color: #2C2C2C;
 }
 
 form::-ms-input-placeholder {
@@ -309,6 +312,7 @@ form::-ms-input-placeholder {
   font-size: 2rem;
   line-height: 3.2rem;
   letter-spacing: 0.2rem;
+  color: #2C2C2C;
 }
 
 p,
@@ -318,6 +322,7 @@ form::placeholder {
   font-size: 2rem;
   line-height: 3.2rem;
   letter-spacing: 0.2rem;
+  color: #2C2C2C;
 }
 
 form::-webkit-input-placeholder {
@@ -342,6 +347,7 @@ form::placeholder {
 
 h1 {
   font-size: 11.12rem;
+  color: #063974;
 }
 
 h2 {
@@ -354,23 +360,27 @@ h3 {
   font-size: 6.2rem;
   line-height: 5.8rem;
   letter-spacing: 0.67rem;
+  color: #0C5F4C;
 }
 
 h4 {
   font-size: 3.5rem;
   line-height: 5.8rem;
   letter-spacing: 0.38rem;
+  color: #0C5F4C;
 }
 
 h5 {
   font-size: 3rem;
   line-height: 5.8rem;
   letter-spacing: 0.32rem;
+  color: #0C5F4C;
 }
 
 .logo {
   font-size: 3.46rem;
   text-align: center;
+  color: #50e3c2;
 }
 
 button,
@@ -379,8 +389,16 @@ nav {
   text-align: center;
   letter-spacing: 0.1rem;
   line-height: 3.2rem;
+  color: #FAFFFE;
 }
 
 nav {
   line-height: 2.9rem;
+}
+nav a {
+  color: #FAFFFE;
+}
+
+button {
+  background-color: #063974;
 }
