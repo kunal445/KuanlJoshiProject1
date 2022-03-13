@@ -257,6 +257,7 @@ p {
   max-width: 1400px;
   width: 90%;
   margin: 0 auto;
+  border: 1px solid red;
 }
 
 html {
@@ -278,32 +279,108 @@ nav {
   font-weight: 700;
 }
 
-p {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-}
-
 form::-webkit-input-placeholder {
   font-family: "Lato", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.2rem;
 }
 
 form::-moz-placeholder {
   font-family: "Lato", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.2rem;
 }
 
 form:-ms-input-placeholder {
   font-family: "Lato", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.2rem;
 }
 
 form::-ms-input-placeholder {
   font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.2rem;
+}
+
+p,
+form::placeholder {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.2rem;
+}
+
+form::-webkit-input-placeholder {
+  font-weight: 300;
+}
+
+form::-moz-placeholder {
+  font-weight: 300;
+}
+
+form:-ms-input-placeholder {
+  font-weight: 300;
+}
+
+form::-ms-input-placeholder {
   font-weight: 300;
 }
 
 form::placeholder {
-  font-family: "Lato", sans-serif;
   font-weight: 300;
+}
+
+h1 {
+  font-size: 11.12rem;
+}
+
+h2 {
+  font-size: 8.7rem;
+  line-height: 5.8rem;
+  letter-spacing: 0.9rem;
+}
+
+h3 {
+  font-size: 6.2rem;
+  line-height: 5.8rem;
+  letter-spacing: 0.67rem;
+}
+
+h4 {
+  font-size: 3.5rem;
+  line-height: 5.8rem;
+  letter-spacing: 0.38rem;
+}
+
+h5 {
+  font-size: 3rem;
+  line-height: 5.8rem;
+  letter-spacing: 0.32rem;
+}
+
+.logo {
+  font-size: 3.46rem;
+  text-align: center;
+}
+
+button,
+nav {
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  line-height: 3.2rem;
+}
+
+nav {
+  line-height: 2.9rem;
 }
