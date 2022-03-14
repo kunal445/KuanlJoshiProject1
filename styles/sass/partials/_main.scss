@@ -1,0 +1,28 @@
+.visit {
+
+    background-color: $white1;
+    .wrapper {
+        margin-top: 200px;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    article {
+        flex-basis: 70%;
+
+        p{
+            margin: 10px 0;
+            width: 80%;
+        }
+    }
+
+    .imgContainer {
+        flex-basis: 20%;
+
+        img {
+            max-width: 100%;
+            box-shadow: -15px 15px $green1;
+        }
+    }
+}
