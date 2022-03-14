@@ -411,3 +411,28 @@ header {
   background-repeat: no-repeat;
   background-position: center;
 }
+header .wrapper {
+  min-height: 60vh;
+}
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header a {
+  padding: 20px;
+}
+header a:hover, header a:focus {
+  color: #50e3c2;
+}

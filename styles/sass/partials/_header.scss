@@ -5,4 +5,27 @@ header {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
+
+    .wrapper {
+        min-height: 60vh;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+    }
+
+    a {
+        padding: 20px;
+
+        &:hover,
+        &:focus {
+            color: $green1;
+        }
+    }
 }
