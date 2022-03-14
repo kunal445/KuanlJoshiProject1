@@ -6,6 +6,8 @@ header {
     background-repeat: no-repeat;
     background-position: center;
 
+    position: relative;
+
     .wrapper {
         min-height: 60vh;
     }
@@ -28,4 +30,19 @@ header {
             color: $green1;
         }
     }
+
+    h3 {
+        text-transform: lowercase;
+    }
+}
+
+.backgroundImg {
+    min-width: 60vw;
+    min-height: 50vh;
+    background-image: url(../beach-final-images/header-box.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: -90px;
+    left: 0;
 }

@@ -410,6 +410,7 @@ header {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
 }
 header .wrapper {
   min-height: 60vh;
@@ -435,4 +436,18 @@ header a {
 }
 header a:hover, header a:focus {
   color: #50e3c2;
+}
+header h3 {
+  text-transform: lowercase;
+}
+
+.backgroundImg {
+  min-width: 60vw;
+  min-height: 50vh;
+  background-image: url(../beach-final-images/header-box.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: -90px;
+  left: 0;
 }
