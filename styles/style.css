@@ -413,7 +413,18 @@ header {
   position: relative;
 }
 header .wrapper {
-  min-height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 40vh;
+  border: 1px solid red;
 }
 header nav {
   display: -webkit-box;
@@ -439,6 +450,8 @@ header a:hover, header a:focus {
 }
 header h3 {
   text-transform: lowercase;
+  position: relative;
+  left: 18px;
 }
 
 .backgroundImg {
@@ -450,4 +463,10 @@ header h3 {
   position: absolute;
   bottom: -90px;
   left: 0;
+}
+
+.titleDiv {
+  z-index: 1;
+  -ms-flex-item-align: center;
+      align-self: center;
 }

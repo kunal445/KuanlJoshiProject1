@@ -9,7 +9,11 @@ header {
     position: relative;
 
     .wrapper {
-        min-height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 40vh;
+        border: 1px solid red;
     }
 
     nav {
@@ -33,6 +37,9 @@ header {
 
     h3 {
         text-transform: lowercase;
+        position: relative;
+        left: 18px;
+        
     }
 }
 
@@ -45,4 +52,9 @@ header {
     position: absolute;
     bottom: -90px;
     left: 0;
+}
+
+.titleDiv {
+    z-index: 1;
+    align-self: center;
 }
