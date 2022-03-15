@@ -501,3 +501,22 @@ header h3 {
   -webkit-box-shadow: -15px 15px #50e3c2;
           box-shadow: -15px 15px #50e3c2;
 }
+
+.gallery {
+  background-color: #D2F9F1;
+}
+.gallery ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 100px 0;
+}
+.gallery li {
+  width: 32%;
+}
+.gallery img {
+  min-width: 100%;
+}

@@ -1,6 +1,7 @@
+//  ---------------------------------------visit section --------------------------------
 .visit {
-
     background-color: $white1;
+
     .wrapper {
         margin-top: 200px;
         margin-bottom: 100px;
@@ -24,5 +25,24 @@
             max-width: 100%;
             box-shadow: -15px 15px $green1;
         }
+    }
+}
+
+//  ----------------------------------------- gallery ---------------------------
+.gallery {
+    background-color: $green2;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        margin: 100px 0;
+    }
+
+    li {
+        width: 32%;
+    }
+
+    img {
+        min-width: 100%;
     }
 }
