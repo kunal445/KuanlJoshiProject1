@@ -1,8 +1,7 @@
 header {
     background-image: url(../beach-final-images/home-image-1.jpg);
-    min-height: 755px; // the height of the image
-    min-width: 100%;
-    background-size: 100% 100%;
+    height: 50vh; 
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
@@ -12,7 +11,7 @@ header {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        min-height: 562.5px; // 50% of background image's height (377.5px) + height of h3 (58px) + height of h1 (127px)
+
     }
 
     nav {
@@ -45,7 +44,7 @@ header {
 // left background imag
 .backgroundImg {
     min-width: 60vw;
-    min-height: 640px; // height of the img
+    height: 40vh;
     background-image: url(../beach-final-images/header-box.jpg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -57,13 +56,13 @@ header {
 .titleDiv {
     z-index: 1;
     align-self: center;
-    position: relative;
-    left: 3%;
+    position: absolute;
+    top: 50%;
 }
 
 // ``````````````````````````````````````````````````` contact page ```````````````````````````````````````
 .contactHeader {
     background-image: url(../beach-final-images/contact-image-1.jpg);
-    max-height: 50vh;
-    min-height: auto;
+    // max-height: 50vh;
+    // min-height: auto;
 }
