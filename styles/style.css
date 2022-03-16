@@ -501,8 +501,8 @@ header h3 {
 }
 .visit .imgContainer img {
   max-width: 100%;
-  -webkit-box-shadow: -15px 15px #50e3c2;
-          box-shadow: -15px 15px #50e3c2;
+  -webkit-box-shadow: -20px 20px #50e3c2;
+          box-shadow: -20px 20px #50e3c2;
 }
 
 .gallery {
@@ -564,6 +564,46 @@ header h3 {
       -ms-flex-align: start;
           align-items: flex-start;
   margin-top: 20px;
+}
+
+.plans {
+  background-color: #D2F9F1;
+}
+.plans article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.plans .imgContainer {
+  min-height: 419px;
+  background-image: url(../beach-final-images/left-image.jpg);
+  background-size: cover;
+  max-width: 40%;
+  margin: 0;
+  -webkit-box-shadow: 20px 20px #50e3c2;
+          box-shadow: 20px 20px #50e3c2;
+  position: relative;
+  top: -30px;
+}
+.plans .rightImg {
+  background-image: url(../beach-final-images/right-image.jpg);
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  background-size: cover;
+  -webkit-box-shadow: -20px 20px #50e3c2;
+          box-shadow: -20px 20px #50e3c2;
+  top: 60px;
+}
+.plans .textContainer {
+  width: 40%;
+  margin: 0 auto;
 }
 
 .rewards .imgContainer {
