@@ -602,8 +602,11 @@ header h3 {
   top: 60px;
 }
 .plans .textContainer {
-  width: 40%;
+  width: 30%;
   margin: 0 auto;
+}
+.plans .rightText {
+  text-align: right;
 }
 
 .rewards .imgContainer {
