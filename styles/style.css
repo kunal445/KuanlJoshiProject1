@@ -316,6 +316,7 @@ form::-ms-input-placeholder {
 }
 
 p,
+form,
 form::placeholder {
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -638,6 +639,52 @@ header h3 {
 .rewards .textContainer p {
   width: 70%;
   text-align: center;
+}
+
+.contactMain .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contactMain form {
+  background-color: #FAFFFE;
+  -webkit-box-shadow: 15px 15px #50e3c2;
+          box-shadow: 15px 15px #50e3c2;
+  padding: 50px;
+  margin-right: 100px;
+  min-height: 50vh;
+  position: relative;
+  top: -100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.contactMain form button {
+  width: 100%;
+  margin: 0;
+}
+.contactMain form input {
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #50e3c2;
+}
+.contactMain .name {
+  width: 48%;
+}
+.contactMain .email {
+  width: 48%;
+}
+.contactMain .message {
+  width: 100%;
+  min-height: 200px;
+  resize: none;
+  margin: 50px 0;
+  border: 2px solid #50e3c2;
 }
 
 footer {

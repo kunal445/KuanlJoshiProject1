@@ -1,3 +1,4 @@
+// +++++++++++++++++++++++++++++++++++++++++++++++++++ Home ++++++++++++++++++++++++++++++++++++++++++++++
 //  ---------------------------------------visit section --------------------------------
 .visit {
     background-color: $white1;
@@ -89,7 +90,7 @@
 .plans {
     background-color: $green2;
 
-     article {
+    article {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -145,5 +146,59 @@
             width: 70%;
             text-align: center;
         }
+    }
+}
+
+// +++++++++++++++++++++++++++++++++ Contact +++++++++++++++++++++++++++++++++++++++++++++
+
+// ----------------------------------- form -----------------------------
+
+.contactMain {
+
+   
+    .wrapper {
+        display: flex;
+    }
+
+    form{
+        background-color: $white1;
+        box-shadow: 15px 15px  $green1;
+
+        padding: 50px;
+        margin-right: 100px;
+        min-height: 50vh;
+        position: relative;
+        top: -100px;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        button {
+            width: 100%;
+            margin: 0;
+        }
+
+        input {
+            padding: 10px;
+            border: none;
+            border-bottom: 2px solid $green1;
+        }
+    }
+
+    .name {
+        width: 48%;
+    }
+
+    .email {
+        width: 48%;
+    }
+
+    .message{
+        width: 100%;
+        min-height: 200px;
+        resize: none;
+        margin: 50px 0;
+        border: 2px solid $green1;
     }
 }
