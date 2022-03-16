@@ -402,13 +402,14 @@ nav a {
 button {
   background-color: #063974;
   padding: 10px;
+  margin-top: 20px;
 }
 
 header {
   background-image: url(../beach-final-images/home-image-1.jpg);
   min-height: 60vh;
   min-width: 100%;
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
@@ -424,7 +425,7 @@ header .wrapper {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  min-height: 40vh;
+  min-height: 50vh;
 }
 header nav {
   display: -webkit-box;
@@ -560,4 +561,32 @@ header h3 {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+}
+
+.rewards .imgContainer {
+  min-height: 50vh;
+  background-image: url(../beach-final-images/banner-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.rewards .textContainer {
+  margin: 200px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.rewards .textContainer p {
+  width: 70%;
+  text-align: center;
 }
