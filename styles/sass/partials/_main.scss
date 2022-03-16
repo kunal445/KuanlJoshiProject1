@@ -46,3 +46,39 @@
         min-width: 100%;
     }
 }
+
+// info
+
+.info {
+    background-color: $white1;
+    margin: 100px 0;
+    
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .iconDiv{
+        background-color: $green1;
+        color: $white1;
+        // 58px because the line height of the text is also 58px
+        min-height: 58px;
+        min-width: 58px;
+        border-radius: 50%;
+
+        // for the icon
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+
+    }
+
+    .infoDiv {
+        display: flex;
+        width: 50%;
+        // flex start so the icon will line up with the text
+        align-items: flex-start;
+    }
+}
