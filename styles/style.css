@@ -407,9 +407,9 @@ button {
 
 header {
   background-image: url(../beach-final-images/home-image-1.jpg);
-  min-height: 60vh;
+  min-height: 755px;
   min-width: 100%;
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
@@ -425,7 +425,7 @@ header .wrapper {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  min-height: 50vh;
+  min-height: 562.5px;
 }
 header nav {
   display: -webkit-box;
@@ -457,7 +457,7 @@ header h3 {
 
 .backgroundImg {
   min-width: 60vw;
-  min-height: 50vh;
+  min-height: 640px;
   background-image: url(../beach-final-images/header-box.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -470,6 +470,8 @@ header h3 {
   z-index: 1;
   -ms-flex-item-align: center;
       align-self: center;
+  position: relative;
+  left: 3%;
 }
 
 .visit {
@@ -486,8 +488,8 @@ header h3 {
           justify-content: space-between;
 }
 .visit article {
-  -ms-flex-preferred-size: 70%;
-      flex-basis: 70%;
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
 }
 .visit article p {
   margin: 10px 0;
@@ -561,10 +563,11 @@ header h3 {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  margin-top: 20px;
 }
 
 .rewards .imgContainer {
-  min-height: 50vh;
+  min-height: 500px;
   background-image: url(../beach-final-images/banner-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;

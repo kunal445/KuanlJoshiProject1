@@ -1,6 +1,6 @@
 header {
     background-image: url(../beach-final-images/home-image-1.jpg);
-    min-height: 60vh;
+    min-height: 755px; // the height of the image
     min-width: 100%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@ header {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        min-height: 40vh;
+        min-height: 562.5px; // 50% of background image's height (377.5px) + height of h3 (58px) + height of h1 (127px)
     }
 
     nav {
@@ -42,9 +42,10 @@ header {
     }
 }
 
+// left background imag
 .backgroundImg {
     min-width: 60vw;
-    min-height: 50vh;
+    min-height: 640px; // height of the img
     background-image: url(../beach-final-images/header-box.jpg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -56,4 +57,6 @@ header {
 .titleDiv {
     z-index: 1;
     align-self: center;
+    position: relative;
+    left: 3%;
 }
