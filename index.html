@@ -5,36 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beach stay</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display+SC:ital,wght@1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0f0aeebdbb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <!-- -----------------------nav and logo ----------------------- -->
-    <div class="wrapper">
-        <a href="./index.html" class="logo">Beachstays
-        </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="./index.html">Home</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Blog</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
 
     <!-- -------------------- header --------------- -->
     <header>
-        <h2>Welcome to</h2>
-        <h1>Beachstatys</h1>
-        <div>
+        <div class="wrapper">
+            <!-- *********** nav and logo *************** -->
+            <nav>
+                <a href="./index.html" class="logo">Beachstays</a>
+            
+                <ul>
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- ********** title ************* -->
+            <div class="titleDiv">
+                <h3>Welcome to</h3>
+                <h1>Beachstatys</h1>
+            </div>
+        </div>
+        <div class="backgroundImg">
             <!-- the left background image goes here -->
         </div>
     </header>
@@ -44,7 +54,7 @@
         <section class="visit">
             <div class="wrapper">
                 <article>
-                    <h3> visit Guyana</h3>
+                    <h4>Visit Guyana</h4>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, optio, recusandae at dolore quibusdam nemo, minus asperiores maxime voluptate libero ratione. Harum maxime dolores in inventore enim natus impedit dolor tempora, veniam tempore, nobis amet nesciunt, numquam consequuntur? Velit, quidem!</p>
                     <button>Find out more</button>
                 </article>
@@ -57,9 +67,18 @@
         <!-- --------------------------------gallery --------------------------- -->
         <section class="gallery">
             <div class="wrapper">
-                <div><img src="./beach-final-images/gallery-image1.jpg" alt="A small beachhouse very close to the water during evening time."></div>
-                <div><img src="./beach-final-images/gallery-image2.jpg" alt="A close up of a beachhouse during dusk."></div>
-                <div><img src="./beach-final-images/gallery-image3.jpg" alt="A large beachhouse during afternoon."></div>
+                <ul>
+                    <li>
+                        <img src="./beach-final-images/gallery-image1.jpg"
+                            alt="A small beachhouse very close to the water during evening time.">
+                    </li>
+                    <li>
+                        <img src="./beach-final-images/gallery-image2.jpg" alt="A close up of a beachhouse during dusk.">
+                    </li>
+                    <li>
+                        <img src="./beach-final-images/gallery-image3.jpg" alt="A large beachhouse during afternoon.">
+                    </li>
+                </ul>
             </div>
         </section>
 
@@ -68,26 +87,46 @@
             <div class="wrapper">
 
                 <div class="infoDiv">
-                    <h5>Beach houses</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, consequatur asperiores nobis suscipit aperiam assumenda.</p>
+                    <div class="iconDiv">
+                    <i class="fa-solid fa-house fa-2xl"></i>
+                    </div>
+                    <div class="infoText">
+                        <h5> Beach houses</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, consequatur asperiores nobis suscipit aperiam assumenda.
+                        </p>
+                    </div>
                 </div>
-
                 <div class="infoDiv">
-                    <h5>Blog</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, consequatur asperiores nobis suscipit aperiam
-                        assumenda.</p>
+                    <div class="iconDiv">
+                        <i class="fa-solid fa-user fa-2xl"></i>
+                    </div>
+                    <div class="infoText">
+                        <h5>Community</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, consequatur asperiores nobis suscipit aperiam
+                            assumenda.</p>
+                    </div>
                 </div>
-
                 <div class="infoDiv">
-                    <h5>Community</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, consequatur asperiores nobis suscipit aperiam
-                        assumenda.</p>
+                    <div class="iconDiv">
+                        <i class="fa-solid fa-file fa-2xl"></i>
+                    </div>
+                    <div class="infoText">
+                        <h5>Blog</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, consequatur asperiores nobis suscipit aperiam
+                            assumenda.</p>
+                    </div>
+                
                 </div>
-
                 <div class="infoDiv">
-                    <h5>Get in Touch</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, consequatur asperiores nobis suscipit aperiam
-                        assumenda.</p>
+                    <div class="iconDiv">
+                        <i class="fa-solid fa-phone-flip fa-2xl"></i>
+                    </div>
+                    <div class="infoText">
+                        <h5>Get in Touch</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, consequatur asperiores nobis suscipit aperiam
+                            assumenda.</p>
+                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -95,10 +134,10 @@
         <!-- ------------------------------------ plans sections -------------------------- -->
         <section class="plans">
             <article>
-                <div class="imgContainer">
+                <div class="imgContainer wrapper leftImg">
                     <!-- add the left background image here -->
                 </div>
-                <div class="textContainer">
+                <div class="textContainer wrapper">
                     <h4>Plan ahead</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eius libero sunt unde tenetur numquam.</p>
                     <button>Read more</button>
@@ -106,10 +145,10 @@
             </article>
 
             <article>
-                <div class="imgContainer">
+                <div class="imgContainer wrapper rightImg">
                     <!-- add the right background image here -->
                 </div>
-                <div class="textContainer">
+                <div class="textContainer wrapper rightText">
                     <h4>New Locations</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eius libero sunt unde tenetur numquam.</p>
                     <button>Read more</button>
@@ -118,12 +157,12 @@
         </section>
 
         <!-- ---------------------------------- rewards ---------------------------------------- -->
-        <section>
+        <section class="rewards">
             <div class="imgContainer">
                 <!-- full bleeed image goes here -->
             </div>
             <div class="textContainer wrapper">
-                <h3>Free trip with Beachstays</h3>
+                <h4>Free trip with Beachstays</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut doloremque quisquam officiis fugiat sint temporibus. Sit ratione inventore dignissimos quasi, veniam beatae in. Ex fugit perspiciatis illum, laudantium quisquam placeat!</p>
                 <button>Find out more</button>
             </div>
@@ -131,7 +170,7 @@
     </main>
 
     <footer>
-        <div class="wrpper">
+        <div class="wrapper">
             <p>Copyright © 2022 Juno College of Technology</p>
         </div>
     </footer>

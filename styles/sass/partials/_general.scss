@@ -1,0 +1,135 @@
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body,
+a,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+button,
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+// font styles
+
+html {
+    font-size: 62.5%; // setting base font to 10px
+}
+
+//  font -family
+h1,
+.logo,
+button {
+
+    font-family: $playfair, sans-serif;
+    // font-style: italic; - no need to apply since base font is already italic
+
+}
+
+h2,
+h3,
+h4,
+h5,
+nav {
+    font-family: $lato, sans-serif;
+    font-weight: 700;
+}
+
+p,
+form::placeholder {
+    font-family: $lato, sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    letter-spacing: 0.2rem;
+    color: $black1;
+}
+
+
+form::placeholder {
+    font-weight: 300;
+}
+
+//  font-size
+
+h1 {
+    font-size: 11.12rem;
+    color: $blue1;
+}
+
+h2 {
+    font-size: 8.7rem;;
+    line-height: 5.8rem;
+    letter-spacing: 0.9rem;
+}
+
+h3 {
+    font-size: 6.2rem;
+    line-height: 5.8rem;
+    letter-spacing: 0.67rem;
+    color: $green3;
+}
+
+h4 {
+    font-size: 3.5rem;
+    line-height: 5.8rem;
+    letter-spacing: 0.38rem;
+    color: $green3;
+}
+
+h5 {
+    font-size: 3rem;
+    line-height: 5.8rem;
+    letter-spacing: 0.32rem;
+    color: $green3;
+}
+
+.logo {
+    font-size: 3.46rem;
+    text-align: center;
+    color: $green1;
+}
+
+button,
+nav {
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    line-height: 3.2rem;
+    color: $white1;
+}
+
+nav {
+    line-height: 2.9rem;
+
+    a{
+        color: $white1;
+    }
+}
+
+// colors
+button {
+    background-color: $blue1;
+    padding: 10px;
+    margin-top: 20px;
+}

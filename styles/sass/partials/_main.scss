@@ -1,0 +1,149 @@
+//  ---------------------------------------visit section --------------------------------
+.visit {
+    background-color: $white1;
+
+    .wrapper {
+        margin-top: 200px;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    article {
+        flex-basis: 80%;
+
+        p{
+            margin: 10px 0;
+            width: 80%;
+        }
+    }
+
+    .imgContainer {
+        flex-basis: 20%;
+
+        img {
+            max-width: 100%;
+            box-shadow: -20px 20px $green1;
+        }
+    }
+}
+
+//  ----------------------------------------- gallery ---------------------------
+.gallery {
+    background-color: $green2;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    li {
+        width: 32%;
+        margin: 100px auto;
+    }
+
+    img {
+        min-width: 100%;
+    }
+}
+
+// ------------------------------------------- info--------------------
+
+.info {
+    background-color: $white1;
+    margin: 100px 0;
+    
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .iconDiv{
+        background-color: $green1;
+        color: $white1;
+        // 58px because the line height of the text is also 58px
+        min-height: 58px;
+        min-width: 58px;
+        border-radius: 50%;
+
+        // for the icon
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+
+    }
+
+    .infoDiv {
+        display: flex;
+        width: 50%;
+        // flex start so the icon will line up with the text
+        align-items: flex-start;
+        margin-top: 20px;
+    }
+}
+
+// ------------------------------------------- plans ------------------------------------
+.plans {
+    background-color: $green2;
+
+     article {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .imgContainer {
+        min-height: 419px; // height of pics
+        background-image: url(../beach-final-images/left-image.jpg);
+        background-size: cover;
+        max-width: 40%;
+        margin: 0;
+        box-shadow: 20px 20px $green1;
+        position: relative;
+        top: -30px;
+    }
+
+    .rightImg {
+        background-image: url(../beach-final-images/right-image.jpg);
+        order: 1;
+        background-size: cover;
+        box-shadow: -20px 20px $green1;
+        top: 60px; // 60 because the left img is top -30
+    }
+
+    .textContainer {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    .rightText {
+        text-align: right;
+    }
+}
+// -------------------------------------------rewards ------------------------------------
+.rewards {
+
+    .imgContainer {
+        min-height: 500px;
+        background-image: url(../beach-final-images/banner-image.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .textContainer {
+        margin: 200px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            width: 70%;
+            text-align: center;
+        }
+    }
+}

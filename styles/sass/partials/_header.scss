@@ -1,0 +1,62 @@
+header {
+    background-image: url(../beach-final-images/home-image-1.jpg);
+    min-height: 755px; // the height of the image
+    min-width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: relative;
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 562.5px; // 50% of background image's height (377.5px) + height of h3 (58px) + height of h1 (127px)
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+    }
+
+    a {
+        padding: 20px;
+
+        &:hover,
+        &:focus {
+            color: $green1;
+        }
+    }
+
+    h3 {
+        text-transform: lowercase;
+        position: relative;
+        left: 18px;
+        
+    }
+}
+
+// left background imag
+.backgroundImg {
+    min-width: 60vw;
+    min-height: 640px; // height of the img
+    background-image: url(../beach-final-images/header-box.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: -90px;
+    left: 0;
+}
+
+.titleDiv {
+    z-index: 1;
+    align-self: center;
+    position: relative;
+    left: 3%;
+}
