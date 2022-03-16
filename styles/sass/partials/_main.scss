@@ -35,11 +35,12 @@
     ul {
         display: flex;
         justify-content: space-between;
-        margin: 100px 0;
+        
     }
 
     li {
         width: 32%;
+        margin: 100px auto;
     }
 
     img {

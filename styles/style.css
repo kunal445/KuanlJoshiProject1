@@ -257,7 +257,6 @@ p {
   max-width: 1400px;
   width: 90%;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 html {
@@ -515,10 +514,10 @@ header h3 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 100px 0;
 }
 .gallery li {
   width: 32%;
+  margin: 100px auto;
 }
 .gallery img {
   min-width: 100%;
