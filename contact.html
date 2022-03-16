@@ -15,7 +15,7 @@
 </head>
 <body>
         <!-- -------------------- header --------------- -->
-        <header>
+        <header class="contactHeader">
             <div class="wrapper">
                 <!-- *********** nav and logo *************** -->
                 <nav>
@@ -40,15 +40,45 @@
                 </nav>
         
                 <!-- ********** title ************* -->
-                <div class="titleDiv">
                     <h2>Get in Touch</h2>
-                </div>
             </div>
 
         </header>
 
         <main>
+            <div class="wrapper">
+                <!-- ---------------------------------------- form -------------------------------------- -->
+                <section class="FormContainer">
+                    <form action="#">
+                        <label for="name" class="sr-only">Name</label>
+                        <input type="text" id="name" class="name" placeholder="Name">
+                        <label for="email" class="sr-only">Email</label>
+                        <input type="email" id="email" class="email" placeholder="Email">
+                        <label for="message" class="sr-only">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                        <button>Submit</button>
+                    </form>
+                </section>
 
+                <!-- -----------------------------------contacts -------------------------------- -->
+                <section class="contacts">
+                    <div class="contactDiv">
+                        <div class="social">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <h5>info@email.com</h5>
+                        <div class="address">
+                            <p>123 - 456 - 7890</p>
+                            <p>123 Queen Street West, Unit 10</p>
+                            <p>Toronto, Ontario</p>
+                            <p>M5V2D5</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </main>
 
         <footer>

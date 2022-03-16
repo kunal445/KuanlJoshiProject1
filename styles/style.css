@@ -474,6 +474,12 @@ header h3 {
   left: 3%;
 }
 
+.contactHeader {
+  background-image: url(../beach-final-images/contact-image-1.jpg);
+  max-height: 50vh;
+  min-height: auto;
+}
+
 .visit {
   background-color: #FAFFFE;
 }
