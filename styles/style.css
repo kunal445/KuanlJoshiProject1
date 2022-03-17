@@ -625,6 +625,9 @@ header h3 {
 .plans .rightText {
   text-align: right;
 }
+.plans h4 {
+  color: #063974;
+}
 
 .rewards .imgContainer {
   height: 40vh;
