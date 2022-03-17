@@ -224,3 +224,41 @@
 }
 
 //  ++++++++++++++++++++++++++++++++++++++++++++++ blog  page ++++++++++++++++++++++++++++++++++++++++++
+
+.blog {
+    position: relative;
+    left: -250px;
+    width: 60vw;
+
+    border-right: 5px solid $green1;
+    border-bottom: 5px solid $green1;
+
+    .imgContainer {
+        width: 100%;
+    }
+
+    img {
+        width: 99%;
+        box-shadow: 45px 45px 0 -20px $green1;
+        position: relative;
+        top: -100px;
+        left: -5px;
+    }
+
+    p {
+        margin: 20px 0;
+    }
+    .author {
+        font-weight: bold;
+    }
+
+    .blogContainer {
+        width: 80%;
+    }
+}
+
+.blogMain {
+    .date {
+        color: $blue1;
+    }
+}

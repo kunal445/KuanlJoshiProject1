@@ -726,6 +726,38 @@ header h3 {
           justify-content: center;
 }
 
+.blog {
+  position: relative;
+  left: -250px;
+  width: 60vw;
+  border-right: 5px solid #50e3c2;
+  border-bottom: 5px solid #50e3c2;
+}
+.blog .imgContainer {
+  width: 100%;
+}
+.blog img {
+  width: 99%;
+  -webkit-box-shadow: 45px 45px 0 -20px #50e3c2;
+          box-shadow: 45px 45px 0 -20px #50e3c2;
+  position: relative;
+  top: -100px;
+  left: -5px;
+}
+.blog p {
+  margin: 20px 0;
+}
+.blog .author {
+  font-weight: bold;
+}
+.blog .blogContainer {
+  width: 80%;
+}
+
+.blogMain .date {
+  color: #063974;
+}
+
 footer {
   background-color: #2C2C2C;
 }
