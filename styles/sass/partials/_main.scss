@@ -155,14 +155,13 @@
 
 .contactMain {
 
-   
     .wrapper {
         display: flex;
     }
-
+//  --------------------------------------------form ------------------------
     form{
         background-color: $white1;
-        box-shadow: 15px 15px  $green1;
+        box-shadow: 45px 45px 0 -20px $green1;
 
         padding: 50px;
         margin-right: 100px;
@@ -185,7 +184,7 @@
             border-bottom: 2px solid $green1;
         }
     }
-
+    
     .name {
         width: 48%;
     }
@@ -200,5 +199,23 @@
         resize: none;
         margin: 50px 0;
         border: 2px solid $green1;
+    }
+//  ------------------------------------ contacts stuff ----------------------------------
+    a{
+        font-family: $lato, sans-serif;
+        color: $black1;
+        font-weight: bold;
+        margin: 10px 20px 10px 0;
+    }
+
+    .address {
+        margin-top: 10px;
+        width: 80%;
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }

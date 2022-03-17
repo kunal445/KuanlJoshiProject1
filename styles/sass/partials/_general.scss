@@ -101,7 +101,8 @@ h4 {
     color: $green3;
 }
 
-h5 {
+h5,
+.contactLinks {
     font-size: 3rem;
     line-height: 5.8rem;
     letter-spacing: 0.32rem;
@@ -115,7 +116,8 @@ h5 {
 }
 
 button,
-nav {
+nav,
+a {
     font-size: 2rem;
     text-align: center;
     letter-spacing: 0.1rem;
@@ -125,10 +127,6 @@ nav {
 
 nav {
     line-height: 2.9rem;
-
-    a{
-        color: $white1;
-    }
 }
 
 // colors

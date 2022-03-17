@@ -372,7 +372,8 @@ h4 {
   color: #0C5F4C;
 }
 
-h5 {
+h5,
+.contactLinks {
   font-size: 3rem;
   line-height: 5.8rem;
   letter-spacing: 0.32rem;
@@ -386,7 +387,8 @@ h5 {
 }
 
 button,
-nav {
+nav,
+a {
   font-size: 2rem;
   text-align: center;
   letter-spacing: 0.1rem;
@@ -396,9 +398,6 @@ nav {
 
 nav {
   line-height: 2.9rem;
-}
-nav a {
-  color: #FAFFFE;
 }
 
 button {
@@ -476,6 +475,11 @@ header h3 {
 
 .contactHeader {
   background-image: url(../beach-final-images/contact-image-1.jpg);
+  position: relative;
+}
+.contactHeader h2 {
+  position: absolute;
+  bottom: 150px;
 }
 
 .visit {
@@ -648,8 +652,8 @@ header h3 {
 }
 .contactMain form {
   background-color: #FAFFFE;
-  -webkit-box-shadow: 15px 15px #50e3c2;
-          box-shadow: 15px 15px #50e3c2;
+  -webkit-box-shadow: 45px 45px 0 -20px #50e3c2;
+          box-shadow: 45px 45px 0 -20px #50e3c2;
   padding: 50px;
   margin-right: 100px;
   min-height: 50vh;
@@ -685,6 +689,28 @@ header h3 {
   resize: none;
   margin: 50px 0;
   border: 2px solid #50e3c2;
+}
+.contactMain a {
+  font-family: "Lato", sans-serif;
+  color: #2C2C2C;
+  font-weight: bold;
+  margin: 10px 20px 10px 0;
+}
+.contactMain .address {
+  margin-top: 10px;
+  width: 80%;
+}
+.contactMain .contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 footer {
