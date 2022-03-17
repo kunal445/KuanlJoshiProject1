@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display+SC:ital,wght@1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0f0aeebdbb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <!-- -------------------- header --------------- -->
+    <header class="blogHeader">
+        <div class="wrapper">
+            <!-- *********** nav and logo *************** -->
+            <nav>
+                <a href="./index.html">
+                    <h1 class="logo">Beachstays</h1>
+                </a>
+
+                <ul>
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="./blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- ********** title ************* -->
+            <h2>Blog</h2>
+        </div>
+    </header>
+
+    <main class="blogMain">
+        <div class="wrapper">
+            <!-- ---------------------------------------- form -------------------------------------- -->
+            <section class="formContainer">
+                <form action="#">
+                    <label for="name" class="sr-only">Name</label>
+                    <input type="text" id="name" class="name" placeholder="Name">
+                    <label for="email" class="sr-only">Email</label>
+                    <input type="email" id="email" class="email" placeholder="Email">
+                    <label for="message" class="sr-only">Message</label>
+                    <textarea name="message" id="message" class="message" placeholder="Message"></textarea>
+                    <button>Submit</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="wrapper">
+            <p>Copyright © 2022 Juno College of Technology</p>
+        </div>
+    </footer>
+</body>
+
+</html>
