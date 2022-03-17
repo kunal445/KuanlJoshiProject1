@@ -14,6 +14,77 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    
+        <!-- -------------------- header --------------- -->
+        <header class="contactHeader">
+            <div class="wrapper">
+                <!-- *********** nav and logo *************** -->
+                <nav>
+                    <a href="./index.html">
+                        <h1 class="logo">Beachstays</h1>
+                    </a>
+        
+                    <ul>
+                        <li>
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+        
+                <!-- ********** title ************* -->
+                    <h2>Get in Touch</h2>
+            </div>
+
+        </header>
+
+        <main class="contactMain">
+            <div class="wrapper">
+                <!-- ---------------------------------------- form -------------------------------------- -->
+                <section class="formContainer">
+                    <form action="#">
+                        <label for="name" class="sr-only">Name</label>
+                        <input type="text" id="name" class="name" placeholder="Name">
+                        <label for="email" class="sr-only">Email</label>
+                        <input type="email" id="email" class="email" placeholder="Email">
+                        <label for="message" class="sr-only">Message</label>
+                        <textarea name="message" id="message" class="message" placeholder="Message"></textarea>
+                        <button>Submit</button>
+                    </form>
+                </section>
+
+                <!-- -----------------------------------contacts -------------------------------- -->
+                <section class="contacts">
+                    <div class="contactDiv">
+                        <div class="social">
+                            <a href="#" class="contactLinks"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="contactLinks"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" class="contactLinks"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#" class="contactLinks"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+                        <a href="mailto:info@email.com" class="contactLinks">info@email.com</a>
+                        <div class="address">
+                            <p>123 - 456 - 7890</p>
+                            <p>123 Queen Street West, Unit 10</p>
+                            <p>Toronto, Ontario</p>
+                            <p>M5V2D5</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <div class="wrapper">
+                <p>Copyright © 2022 Juno College of Technology</p>
+            </div>
+        </footer>
 </body>
 </html>

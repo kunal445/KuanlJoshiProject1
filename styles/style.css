@@ -247,6 +247,7 @@ h2,
 h3,
 h4,
 h5,
+h6,
 button,
 p {
   margin: 0;
@@ -263,7 +264,7 @@ html {
   font-size: 62.5%;
 }
 
-h1,
+h6,
 .logo,
 button {
   font-family: "Playfair Display SC", sans-serif;
@@ -315,6 +316,7 @@ form::-ms-input-placeholder {
 }
 
 p,
+form,
 form::placeholder {
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -344,7 +346,7 @@ form::placeholder {
   font-weight: 300;
 }
 
-h1 {
+h6 {
   font-size: 11.12rem;
   color: #063974;
 }
@@ -353,6 +355,7 @@ h2 {
   font-size: 8.7rem;
   line-height: 5.8rem;
   letter-spacing: 0.9rem;
+  color: #FAFFFE;
 }
 
 h3 {
@@ -369,7 +372,8 @@ h4 {
   color: #0C5F4C;
 }
 
-h5 {
+h5,
+.contactLinks {
   font-size: 3rem;
   line-height: 5.8rem;
   letter-spacing: 0.32rem;
@@ -383,7 +387,8 @@ h5 {
 }
 
 button,
-nav {
+nav,
+a {
   font-size: 2rem;
   text-align: center;
   letter-spacing: 0.1rem;
@@ -394,9 +399,6 @@ nav {
 nav {
   line-height: 2.9rem;
 }
-nav a {
-  color: #FAFFFE;
-}
 
 button {
   background-color: #063974;
@@ -406,9 +408,8 @@ button {
 
 header {
   background-image: url(../beach-final-images/home-image-1.jpg);
-  min-height: 755px;
-  min-width: 100%;
-  background-size: 100% 100%;
+  height: 50vh;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
@@ -424,7 +425,6 @@ header .wrapper {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  min-height: 562.5px;
 }
 header nav {
   display: -webkit-box;
@@ -456,7 +456,7 @@ header h3 {
 
 .backgroundImg {
   min-width: 60vw;
-  min-height: 640px;
+  height: 40vh;
   background-image: url(../beach-final-images/header-box.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -469,8 +469,17 @@ header h3 {
   z-index: 1;
   -ms-flex-item-align: center;
       align-self: center;
+  position: absolute;
+  top: 50%;
+}
+
+.contactHeader {
+  background-image: url(../beach-final-images/contact-image-1.jpg);
   position: relative;
-  left: 3%;
+}
+.contactHeader h2 {
+  position: absolute;
+  bottom: 150px;
 }
 
 .visit {
@@ -609,7 +618,7 @@ header h3 {
 }
 
 .rewards .imgContainer {
-  min-height: 500px;
+  height: 40vh;
   background-image: url(../beach-final-images/banner-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -634,6 +643,74 @@ header h3 {
 .rewards .textContainer p {
   width: 70%;
   text-align: center;
+}
+
+.contactMain .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contactMain form {
+  background-color: #FAFFFE;
+  -webkit-box-shadow: 45px 45px 0 -20px #50e3c2;
+          box-shadow: 45px 45px 0 -20px #50e3c2;
+  padding: 50px;
+  margin-right: 100px;
+  min-height: 50vh;
+  position: relative;
+  top: -100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.contactMain form button {
+  width: 100%;
+  margin: 0;
+}
+.contactMain form input {
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #50e3c2;
+}
+.contactMain .name {
+  width: 48%;
+}
+.contactMain .email {
+  width: 48%;
+}
+.contactMain .message {
+  width: 100%;
+  min-height: 200px;
+  resize: none;
+  margin: 50px 0;
+  border: 2px solid #50e3c2;
+}
+.contactMain a {
+  font-family: "Lato", sans-serif;
+  color: #2C2C2C;
+  font-weight: bold;
+  margin: 10px 20px 10px 0;
+}
+.contactMain .address {
+  margin-top: 10px;
+  width: 80%;
+}
+.contactMain .contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 footer {
