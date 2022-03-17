@@ -482,6 +482,15 @@ header h3 {
   bottom: 150px;
 }
 
+.blogHeader {
+  background-image: url(../beach-final-images/blog-image-1.jpg);
+  position: relative;
+}
+.blogHeader h2 {
+  position: absolute;
+  bottom: 150px;
+}
+
 .visit {
   background-color: #FAFFFE;
 }
