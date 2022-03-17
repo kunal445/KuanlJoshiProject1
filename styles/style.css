@@ -689,6 +689,7 @@ header h3 {
   resize: none;
   margin: 50px 0;
   border: 2px solid #50e3c2;
+  padding: 20px;
 }
 .contactMain a {
   font-family: "Lato", sans-serif;
