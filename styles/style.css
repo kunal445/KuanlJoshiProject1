@@ -751,10 +751,6 @@ header h3 {
   width: 80%;
 }
 
-.blogMain .date {
-  color: #063974;
-}
-
 .contentContainer {
   width: 100%;
   display: -webkit-box;
@@ -799,6 +795,39 @@ header h3 {
 .mission .recentPosts {
   margin-top: 20px;
   padding-right: 50px;
+}
+
+.comments h4 {
+  color: #2C2C2C;
+  margin-top: 50px;
+}
+
+.comment {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 50px 0;
+}
+.comment .date {
+  color: #063974;
+  font-weight: bold;
+}
+.comment .imgContainer {
+  min-width: 89px;
+}
+.comment .commentText {
+  margin-left: 30px;
+}
+
+.commentContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 footer {

@@ -225,6 +225,7 @@
 
 //  ++++++++++++++++++++++++++++++++++++++++++++++ blog  page ++++++++++++++++++++++++++++++++++++++++++
 
+// ---------------------blog and mission ---------------------------
 .blog {
     border-right: 5px solid $green1;
     border-bottom: 5px solid $green1;
@@ -250,12 +251,6 @@
         width: 80%;
     }
 
-}
-
-.blogMain {
-    .date {
-        color: $blue1;
-    }
 }
 
 .contentContainer {
@@ -308,4 +303,37 @@
         margin-top: 20px;
         padding-right: 50px;
     }
+}
+
+//  ----------------------------------- comment ------------------------------
+
+.comments {
+    h4 {
+        color: $black1;
+        margin-top: 50px;
+    }
+}
+
+.comment {
+    width: 60%;
+    display: flex;
+    margin: 50px 0;
+
+    .date {
+        color: $blue1;
+        font-weight: bold;
+    }
+
+    .imgContainer {
+        min-width: 89px;
+    }
+
+    .commentText {
+        margin-left: 30px;
+    }
+}
+
+.commentContainer {
+    display: flex;
+    flex-direction: column;
 }
