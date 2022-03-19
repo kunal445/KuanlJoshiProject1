@@ -830,6 +830,39 @@ header h3 {
           flex-direction: column;
 }
 
+.blogMain form {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.blogMain form button {
+  width: 100%;
+  margin: 0;
+}
+.blogMain form input {
+  padding: 10px 20px;
+  border: none;
+  border-bottom: 2px solid #50e3c2;
+  width: 48%;
+}
+.blogMain form textarea {
+  margin: 30px 0;
+  width: 100%;
+  resize: none;
+  padding: 30px;
+  min-height: 200px;
+  border: 2px solid #50e3c2;
+}
+.blogMain .formContainer {
+  margin-bottom: 100px;
+}
+
 footer {
   background-color: #2C2C2C;
 }
