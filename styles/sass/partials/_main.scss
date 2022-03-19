@@ -123,6 +123,10 @@
     .rightText {
         text-align: right;
     }
+
+    h4 {
+        color: $blue1;
+    }
 }
 // -------------------------------------------rewards ------------------------------------
 .rewards {
@@ -149,7 +153,7 @@
     }
 }
 
-// +++++++++++++++++++++++++++++++++ Contact +++++++++++++++++++++++++++++++++++++++++++++
+// +++++++++++++++++++++++++++++++++ Contact page  +++++++++++++++++++++++++++++++++++++++++++++
 
 .contactMain {
 
@@ -216,5 +220,156 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+}
+
+//  ++++++++++++++++++++++++++++++++++++++++++++++ blog  page ++++++++++++++++++++++++++++++++++++++++++
+
+// ---------------------blog and mission ---------------------------
+.blog {
+    border-right: 5px solid $green1;
+    border-bottom: 5px solid $green1;
+    width: 60%;
+
+    img {
+        width: 99%;
+        box-shadow: 40px 45px 0 -20px $green1;
+        position: relative;
+        top: -100px;
+        left: -5px;
+        z-index: 1;
+    }
+
+    p {
+        margin: 20px 0;
+    }
+    .author {
+        font-weight: bold;
+    }
+
+    .blogContainer {
+        width: 80%;
+    }
+
+}
+
+.contentContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mission {
+    padding-top: 100px;
+    width: 25%;
+
+    .imgContainer {
+        width: 100%;
+        height: 300px;
+        background-image: url(../beach-final-images/sidebar-image.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    h5 {
+        color: $blue1;
+    }
+
+    p{
+        width: 90%;
+    }
+
+    .greenText {
+        color: $green3;
+        font-weight: bold;
+    }
+
+    ul {
+        margin-left: 20px
+    }
+
+    li {
+
+        p::before {
+            content: "•";
+            color: $green1;
+            position: relative;
+            left: -10px;
+        }
+    }
+
+    .recentPosts {
+        margin-top: 20px;
+        padding-right: 50px;
+    }
+}
+
+//  ----------------------------------- comment ------------------------------
+
+.comments {
+    h4 {
+        color: $black1;
+        margin-top: 50px;
+    }
+}
+
+.comment {
+    width: 60%;
+    display: flex;
+    margin: 50px 0;
+
+    .date {
+        color: $blue1;
+        font-weight: bold;
+    }
+
+    .imgContainer {
+        min-width: 89px;
+    }
+
+    .commentText {
+        margin-left: 30px;
+    }
+}
+
+.commentContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+// ------------------------------------ form ------------------------------
+
+.blogMain {
+    form {
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        button {
+            width: 100%;
+            margin: 0;
+        }
+
+        input {
+            padding: 10px 20px;
+            border: none;
+            border-bottom: 2px solid $green1;
+            width: 48%;
+        }
+
+        textarea {
+            margin: 30px 0;
+            width: 100%;
+            resize: none;
+            padding: 30px;
+            min-height: 200px;
+            border: 2px solid $green1;
+        }
+    }
+
+    .formContainer {
+        margin-bottom: 100px;
     }
 }
