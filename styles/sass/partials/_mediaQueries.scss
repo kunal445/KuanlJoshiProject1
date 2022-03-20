@@ -1,0 +1,56 @@
+@media (max-width: 1050px) {
+
+    // ------------------------------------------------contact --------------------------
+    .contactMain {
+        .wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        form {
+            margin-right: 20px;
+        }
+
+        // ************ contacts stuff ************
+        .contacts {
+           width: 80%;
+           margin-bottom: 50px;
+        }
+
+        .contactDiv {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            p {
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 600px) {
+
+
+    // ---------------------------------------------- contact  ------------------------------
+    .contactMain {
+
+        .wrapper{
+            width: 95%;
+        }
+
+        .formContainer {
+            width: 90%;
+        }
+        form {
+            margin-right: 0;
+            flex-direction: column;
+
+            .name, .email {
+                width: 100%;
+                margin-top: 10px;
+            }
+        }
+    }
+}

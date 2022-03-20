@@ -871,3 +871,56 @@ footer p {
   text-align: center;
   color: #FAFFFE;
 }
+
+@media (max-width: 1050px) {
+  .contactMain .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contactMain form {
+    margin-right: 20px;
+  }
+  .contactMain .contacts {
+    width: 80%;
+    margin-bottom: 50px;
+  }
+  .contactMain .contactDiv {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contactMain .contactDiv p {
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .contactMain .wrapper {
+    width: 95%;
+  }
+  .contactMain .formContainer {
+    width: 90%;
+  }
+  .contactMain form {
+    margin-right: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contactMain form .name, .contactMain form .email {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
