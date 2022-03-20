@@ -41,6 +41,7 @@
         display: none;
     }
 
+
     //  ------------------------- visit ---------------------------
     .visit {
         .wrapper {
@@ -89,7 +90,43 @@
             width: 80%;
         }
     }
+//  --------------------------------------plans ------------------------
+    .plans {
 
+        padding: 50px 0;
+        article {
+            flex-direction: column;
+
+            .textContainer {
+                width: 80%;
+                text-align: center;
+                
+            }
+        }
+
+        .rightImg {
+            order: 0;
+        }
+
+        .imgContainer {
+            top: 0;
+            margin: 30px 0;
+            max-width: 80%;
+            
+        }
+    }
+
+    //  ------------------------------- rewards -------------------------
+    .rewards {
+
+        .textContainer {
+            margin: 50px auto;
+        }
+
+        h4 {
+            text-align: center;
+        }
+    }
 }
 
 
