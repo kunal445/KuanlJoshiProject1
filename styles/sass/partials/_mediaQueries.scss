@@ -1,5 +1,11 @@
 @media (max-width: 1050px) {
 
+    // ------------------------------------------ main/home ----------------------------
+    .plans {
+        .textContainer {
+            width: 45%;
+        }
+    }
     // ------------------------------------------------contact --------------------------
     .contactMain {
         .wrapper {
@@ -29,10 +35,42 @@
     }
 }
 
+@media (max-width: 875px){
+    // ----------------------- header --------------------------
+    .backgroundImg {
+        display: none;
+    }
+
+    .titleDiv {
+        
+    }
+
+    //  ------------------------- visit ---------------------------
+    .visit {
+        .wrapper {
+            margin-top: 100px;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .imgContainer {
+            order: -1;
+            margin-bottom: 30px;
+        }
+
+        article {
+            p {
+                width: 100%;
+            }
+        }
+    }
+
+}
+
+
+
 
 @media (max-width: 600px) {
-
-
     // ---------------------------------------------- contact  ------------------------------
     .contactMain {
 

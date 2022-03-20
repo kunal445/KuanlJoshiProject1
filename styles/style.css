@@ -873,6 +873,10 @@ footer p {
 }
 
 @media (max-width: 1050px) {
+  .plans .textContainer {
+    width: 45%;
+  }
+
   .contactMain .wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -903,6 +907,31 @@ footer p {
   }
   .contactMain .contactDiv p {
     text-align: center;
+  }
+}
+@media (max-width: 875px) {
+  .backgroundImg {
+    display: none;
+  }
+
+  .visit .wrapper {
+    margin-top: 100px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .visit .imgContainer {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    margin-bottom: 30px;
+  }
+  .visit article p {
+    width: 100%;
   }
 }
 @media (max-width: 600px) {
