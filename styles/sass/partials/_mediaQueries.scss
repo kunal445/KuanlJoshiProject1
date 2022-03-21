@@ -41,7 +41,28 @@
         display: none;
     }
 
+    .homeHeader {
+        min-height: 100vh;
+    }
 
+    header {
+        nav {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .titleDiv {
+            max-width: 875px;
+            width: 90%;
+            text-align: center;
+            border: 1px solid red;
+        }
+
+        h6 {
+                font-size: 8rem;
+        }
+    }
+    
     //  ------------------------- visit ---------------------------
     .visit {
         .wrapper {
@@ -133,6 +154,24 @@
 
 
 @media (max-width: 600px) {
+    
+    header {
+        h3 {
+            font-size: 4.5rem;
+        }
+
+        h6 {
+            font-size: 6rem;
+        }
+
+        .titleDiv {
+            span {
+                display: block;
+            }
+        }
+    }
+    
+    
     // ---------------------------------------------- contact  ------------------------------
     .contactMain {
 
