@@ -1058,6 +1058,10 @@ footer p {
   .comment {
     width: 100%;
   }
+
+  .blogMain form {
+    width: 100%;
+  }
 }
 @media (max-width: 600px) {
   header h3 {
@@ -1092,6 +1096,10 @@ footer p {
     font-size: 3rem;
   }
 
+  .info .iconDiv {
+    display: none;
+  }
+
   .contactMain .wrapper {
     width: 95%;
   }
@@ -1108,5 +1116,23 @@ footer p {
   .contactMain form .name, .contactMain form .email {
     width: 100%;
     margin-top: 10px;
+  }
+
+  .blogMain form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .blogMain form input {
+    width: 100%;
+  }
+
+  .mission {
+    width: 100%;
+  }
+  .mission .recentPosts {
+    padding-right: 0;
+    width: 100%;
   }
 }
