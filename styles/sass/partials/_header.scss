@@ -14,6 +14,12 @@ header {
 
     }
 
+    .hamburgerMenu {
+        background-color: transparent;
+        border: none;
+        display: none;
+    }
+
     nav {
         display: flex;
         justify-content: space-between;

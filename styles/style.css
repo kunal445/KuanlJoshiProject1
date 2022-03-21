@@ -427,6 +427,11 @@ header .wrapper {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+header .hamburgerMenu {
+  background-color: transparent;
+  border: none;
+  display: none;
+}
 header nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -931,7 +936,6 @@ footer p {
     max-width: 875px;
     width: 90%;
     text-align: center;
-    border: 1px solid red;
   }
   header h6 {
     font-size: 8rem;
@@ -1026,6 +1030,34 @@ footer p {
   .rewards h4 {
     text-align: center;
   }
+
+  .contactHeader h2 {
+    line-height: 8.7rem;
+  }
+
+  .contentContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .blog {
+    width: 90%;
+  }
+
+  .mission {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .mission p {
+    width: 100%;
+  }
+
+  .comment {
+    width: 100%;
+  }
 }
 @media (max-width: 600px) {
   header h3 {
@@ -1036,6 +1068,28 @@ footer p {
   }
   header .titleDiv span {
     display: block;
+  }
+  header ul {
+    display: none;
+  }
+  header .hamburgerMenu {
+    display: block;
+    cursor: pointer;
+    position: fixed;
+    right: 10px;
+    top: -10px;
+  }
+  header .hamburgerMenu:hover {
+    color: #50e3c2;
+  }
+  header nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  header .logo {
+    font-size: 3rem;
   }
 
   .contactMain .wrapper {
