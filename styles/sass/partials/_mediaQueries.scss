@@ -212,6 +212,7 @@
         ul {
             position: fixed;
             flex-direction: column;
+            text-align: center;
             top: 80px;
             width: 100%;
             background-color: $black2;
@@ -219,10 +220,12 @@
 
             li {
                 width: 100%;
+                margin: 20px 0;
             }
             
             a {
-                padding: 0 50%;
+                padding: 20px 150px;
+                
 
                 &:hover{
                     background-color: $black1;

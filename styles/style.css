@@ -1079,6 +1079,7 @@ footer p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    text-align: center;
     top: 80px;
     width: 100%;
     background-color: #2C2C2C90;
@@ -1086,9 +1087,10 @@ footer p {
   }
   header ul li {
     width: 100%;
+    margin: 20px 0;
   }
   header ul a {
-    padding: 0 50%;
+    padding: 20px 150px;
   }
   header ul a:hover {
     background-color: #2C2C2C;
