@@ -210,11 +210,38 @@
         }
 
         ul {
-            display: none;
+            position: fixed;
+            flex-direction: column;
+            top: 80px;
+            width: 100%;
+            background-color: $black2;
+            z-index: 999;
+
+            li {
+                width: 100%;
+            }
+            
+            a {
+                padding: 0 50%;
+
+                &:hover{
+                    background-color: $black1;
+                    
+                }
+            }
+        }
+
+        .hideMe{
+            left: 100%;
+        }
+
+        .showMe {
+            left: 0;
         }
 
         .hamburgerMenu {
             display: block;
+            border: 1px solid $green1;
             cursor: pointer;
             position: fixed;
             right: 10px;

@@ -1074,10 +1074,34 @@ footer p {
     display: block;
   }
   header ul {
-    display: none;
+    position: fixed;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    top: 80px;
+    width: 100%;
+    background-color: #2C2C2C90;
+    z-index: 999;
+  }
+  header ul li {
+    width: 100%;
+  }
+  header ul a {
+    padding: 0 50%;
+  }
+  header ul a:hover {
+    background-color: #2C2C2C;
+  }
+  header .hideMe {
+    left: 100%;
+  }
+  header .showMe {
+    left: 0;
   }
   header .hamburgerMenu {
     display: block;
+    border: 1px solid #50e3c2;
     cursor: pointer;
     position: fixed;
     right: 10px;
